@@ -79,20 +79,5 @@ int main()
 }
 
 
-Output -
 
-Enter 4 data bits (0 or 1): 1 1 0 1
-
-7-bit Hamming Code (Even Parity): 1 0 1 0 1 0 1 
-
-Receiver Side
-Enter bit position to flip (1-7), 0 for no error: 5
-
-Received Code: 1 0 1 0 0 0 1 
-
-Syndrome Bits:
-S1 = 1
-S2 = 0
-S4 = 1
-Error detected at Bit Position = 5
 Corrected Code: 1 0 1 0 1 0 1 
